@@ -1,0 +1,22 @@
+.forecastWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
+}
+
+.forecastItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.forecastItem-date p {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
